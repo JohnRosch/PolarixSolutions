@@ -35,9 +35,6 @@ export default function About() {
               further strengthening our position as a trusted partner for businesses in the New York and New Jersey areas.
 
             </p>
-            <p className="leading-relaxed">
-              Founded by Alvin Caballero in 2018, our company was built with the vision of stability and excellence. Our mission is to uplift client success through high-quality and timely financial service delivery.
-            </p>
           </div>
           <div data-aos="fade-left">
             <img
