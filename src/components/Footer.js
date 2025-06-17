@@ -23,9 +23,9 @@ export default function Footer() {
 
         <div>
           <h3 className="text-xl font-bold mb-4">Contact Us</h3>
-          <p className="text-sm">123 Business St, Suite 100<br />City, State ZIP</p>
-          <p className="text-sm mt-2">Email: contact@polarix.com</p>
-          <p className="text-sm">Phone: (123) 456-7890</p>
+          <p className="text-sm">Unit 1609C Regalia Park Tower C 150 P Tuazon Boulevard<br />Quezon City, 1109, Philippines</p>
+          <p className="text-sm mt-2">Email: info@polarixsolutions.com</p>
+          <p className="text-sm">Phone: (02) 8-355-1374</p>
         </div>
 
       </div>
