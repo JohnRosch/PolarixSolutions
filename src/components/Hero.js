@@ -15,13 +15,13 @@ export default function Hero() {
       {/* Content */}
       <div className="relative z-10 max-w-3xl">
         <h1 className="text-5xl sm:text-6xl font-bold leading-tight mb-6">
-          Trust, Expertise, & Results.
+          Trust, Expertise, & Results
         </h1>
         <p className="text-xl sm:text-2xl mb-8">
-          Your Partner for Tax, Accounting & Consulting.
+          Your Partner for Quality and Success
         </p>
         <p className="mb-10 text-base sm:text-lg text-gray-200">
-          Polarix Solutions empowers individuals and businesses to achieve financial clarity and confidence with premier CPA services delivered by experienced professionals.
+          Polarix Solutions empowers individuals and businesses to achieve financial clarity and confidence with premier CPA services delivered by experienced professionals
         </p>
 
         {/* BUTTON REMOVED */}
