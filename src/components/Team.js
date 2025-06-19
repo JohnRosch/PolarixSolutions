@@ -1,10 +1,10 @@
 import { useState } from "react";
-import member1 from "../assets/mark1.png";
-import member2 from "../assets/Sheila.png";
-import member3 from "../assets/Kathleen.png";
-import member4 from "../assets/Yle.png";
-import member5 from "../assets/Chloei.png";
-import member6 from "../assets/Marc.png";
+import member1 from "../assets/mark1.jpg";
+import member2 from "../assets/Sheila.jpg";
+import member3 from "../assets/Kathleen.jpg";
+import member4 from "../assets/Yle.jpg";
+import member5 from "../assets/Chloie.jpg";
+import member6 from "../assets/Marc.jpg";
 import { motion, AnimatePresence } from "framer-motion";
 
 
@@ -16,7 +16,7 @@ const teamMembers = [
       He passed the Certified Public Accountant Licensure Exam in May 2016 and has been working in the field for almost 10 years.
       Mark began his career as an Accounting Assistant at Getz Pharmaceuticals, where he was responsible for preparing expense reimbursement forms for medical representatives. 
       He then transferred to PwC AC Manila, starting out as an Audit Associate. During his tenure at PwC AC Manila, Mark was part of the pilot team for the US Territory. 
-      He was also given the opportunity to be seconded to the PwC San Juerto Puerto Rico Branch, to be trained specifially for the Cash and Equity Financial
+      He was also given the opportunity to be seconded to the PwC San Puerto Rico Branch, to be trained specifially for the Cash and Equity Financial
        Statement Line Items under the Center of Excellence Team. Later on in his career, he was selected to be a part of the audit team for the Australian Territory, 
        specifically the Extension of Team Senior Pilot Program. Around 2022, he was then assigned to the Industrial Products sector of the United States territory wherein as an Audit Manager
        , part of his responsibilities included performing manager reviews on the workpapers of offshore and onshore audit associates and senior associates, 
@@ -92,8 +92,7 @@ export default function Team() {
           <div
             key={i}
             onClick={() => setSelectedMember(member)}
-            className="cursor-pointer group relative overflow-hidden rounded-2xl shadow-lg hover:shadow-2xl transition-shadow bg-white"
-          >
+            className="cursor-pointer group relative overflow-hidden rounded-2xl shadow-lg hover:shadow-2xl transition-shadow bg-white">
             <img
               src={member.image}
               alt={member.name}
