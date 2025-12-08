@@ -15,30 +15,36 @@ const services = [
     icon: <FaFileInvoiceDollar className="text-6xl text-green-900" />,
     modal: (
       <div className="space-y-3 sm:space-y-4 text-gray-700">
-        <h3 className="text-lg sm:text-xl font-bold text-green-800">Individual Tax Returns</h3>
-        <p className="text-xs sm:text-sm">We prepare and file federal, state, and local income tax returns for individuals:</p>
-        <ul className="list-disc pl-4 sm:pl-6 text-xs sm:text-sm space-y-1">
-          <li>Form 1040</li>
-          <li>Schedule A</li>
-          <li>Schedule B</li>
-          <li>Schedule C</li>
-          <li>Schedule D</li>
-          <li>Schedule E</li>
-          <li>Schedule F</li>
-        </ul>
+        <div>
+          <h3 className="text-lg sm:text-xl font-bold text-green-800 mb-2 sm:mb-3">Individual Tax Returns</h3>
+          <p className="text-xs sm:text-sm mb-2 sm:mb-3 leading-relaxed">We prepare and file federal, state, and local income tax returns for individuals:</p>
+          <ul className="list-disc ml-5 sm:ml-6 text-xs sm:text-sm space-y-1 sm:space-y-1.5">
+            <li>Form 1040</li>
+            <li>Schedule A</li>
+            <li>Schedule B</li>
+            <li>Schedule C</li>
+            <li>Schedule D</li>
+            <li>Schedule E</li>
+            <li>Schedule F</li>
+          </ul>
+        </div>
 
-        <h3 className="text-lg sm:text-xl font-bold text-green-800 pt-2 sm:pt-4">Business Tax Returns</h3>
-        <ul className="list-disc pl-4 sm:pl-6 text-xs sm:text-sm space-y-1">
-          <li>Form 1120 (Corporation)</li>
-          <li>Form 1120S (S-Corporation)</li>
-          <li>Form 1065 (Partnership)</li>
-        </ul>
+        <div>
+          <h3 className="text-lg sm:text-xl font-bold text-green-800 mb-2 sm:mb-3">Business Tax Returns</h3>
+          <ul className="list-disc ml-5 sm:ml-6 text-xs sm:text-sm space-y-1 sm:space-y-1.5">
+            <li>Form 1120 (Corporation)</li>
+            <li>Form 1120S (S-Corporation)</li>
+            <li>Form 1065 (Partnership)</li>
+          </ul>
+        </div>
 
-        <h3 className="text-lg sm:text-xl font-bold text-green-800 pt-2 sm:pt-4">Not-for-Profit Tax Filings</h3>
-        <ul className="list-disc pl-4 sm:pl-6 text-xs sm:text-sm space-y-1">
-          <li>Form 990</li>
-          <li>CHAR500 / CHAR660 (NY State Charities Bureau)</li>
-        </ul>
+        <div>
+          <h3 className="text-lg sm:text-xl font-bold text-green-800 mb-2 sm:mb-3">Not-for-Profit Tax Filings</h3>
+          <ul className="list-disc ml-5 sm:ml-6 text-xs sm:text-sm space-y-1 sm:space-y-1.5">
+            <li>Form 990</li>
+            <li>CHAR500 / CHAR660 (NY State Charities Bureau)</li>
+          </ul>
+        </div>
       </div>
     )
   },
@@ -52,20 +58,20 @@ const services = [
       <div className="space-y-4 sm:space-y-6 text-gray-700">
         <div>
           <h3 className="text-lg sm:text-xl font-bold text-green-800 mb-2 sm:mb-3">Full Audit Services</h3>
-          <p className="mb-2 sm:mb-3 text-xs sm:text-sm">Our comprehensive audit engagements include:</p>
-          <ul className="list-disc pl-4 sm:pl-6 space-y-1 sm:space-y-2 text-xs sm:text-sm">
+          <p className="mb-2 sm:mb-3 text-xs sm:text-sm leading-relaxed">Our comprehensive audit engagements include:</p>
+          <ul className="list-disc ml-5 sm:ml-6 space-y-1.5 sm:space-y-2 text-xs sm:text-sm">
             <li><span className="font-semibold">Walkthroughs of Key Processes</span> – Understanding the client's internal controls and operations</li>
             <li><span className="font-semibold">Risk Assessment Procedures</span> – Identifying areas of potential material misstatement</li>
             <li><span className="font-semibold">Substantive Testing</span> – Gathering sufficient and appropriate audit evidence</li>
             <li><span className="font-semibold">Preparation of Financial Statements</span> – Ensuring compliance with applicable accounting standards</li>
           </ul>
-          <p className="mt-2 sm:mt-4 italic text-xs sm:text-sm">We tailor our audit approach to your organization's size, complexity, and industry to deliver meaningful results.</p>
+          <p className="mt-2 sm:mt-4 italic text-xs sm:text-sm leading-relaxed">We tailor our audit approach to your organization's size, complexity, and industry to deliver meaningful results.</p>
         </div>
 
         <div>
           <h3 className="text-lg sm:text-xl font-bold text-green-800 mb-2 sm:mb-3">Attest Services</h3>
-          <p className="mb-2 sm:mb-3 text-xs sm:text-sm">For clients who do not require a full audit, we offer limited assurance services:</p>
-          <ul className="list-disc pl-4 sm:pl-6 space-y-1 sm:space-y-2 text-xs sm:text-sm">
+          <p className="mb-2 sm:mb-3 text-xs sm:text-sm leading-relaxed">For clients who do not require a full audit, we offer limited assurance services:</p>
+          <ul className="list-disc ml-5 sm:ml-6 space-y-1.5 sm:space-y-2 text-xs sm:text-sm">
             <li><span className="font-semibold">Review Engagements</span> – Analytical procedures and inquiries to provide limited assurance on financial statements</li>
             <li><span className="font-semibold">Agreed-Upon Procedures</span> – Targeted procedures based on your specific needs</li>
             <li><span className="font-semibold">Compilation Services</span> – Assembling financial statements based on information provided (without assurance)</li>
@@ -92,8 +98,8 @@ const services = [
       <div className="space-y-4 sm:space-y-6 text-gray-700">
         <div>
           <h3 className="text-lg sm:text-xl font-bold text-green-800 mb-2 sm:mb-3">Day-to-Day Bookkeeping</h3>
-          <p className="mb-2 sm:mb-3 text-xs sm:text-sm">We manage your daily financial transactions, including:</p>
-          <ul className="list-disc pl-4 sm:pl-6 space-y-1 sm:space-y-2 text-xs sm:text-sm">
+          <p className="mb-2 sm:mb-3 text-xs sm:text-sm leading-relaxed">We manage your daily financial transactions, including:</p>
+          <ul className="list-disc ml-5 sm:ml-6 space-y-1 sm:space-y-1.5 text-xs sm:text-sm">
             <li>Recording income and expenses</li>
             <li>Reconciling bank and credit card accounts</li>
             <li>Maintaining general ledgers</li>
@@ -102,18 +108,18 @@ const services = [
 
         <div>
           <h3 className="text-lg sm:text-xl font-bold text-green-800 mb-2 sm:mb-3">Financial Reporting</h3>
-          <p className="mb-2 sm:mb-3 text-xs sm:text-sm">We generate accurate and timely reports to support decision-making:</p>
-          <ul className="list-disc pl-4 sm:pl-6 space-y-1 sm:space-y-2 text-xs sm:text-sm">
+          <p className="mb-2 sm:mb-3 text-xs sm:text-sm leading-relaxed">We generate accurate and timely reports to support decision-making:</p>
+          <ul className="list-disc ml-5 sm:ml-6 space-y-1 sm:space-y-1.5 text-xs sm:text-sm">
             <li>Balance Sheets</li>
-            <li>Profit & Loss Statements</li>
+            <li>Profit &amp; Loss Statements</li>
             <li>Cash Flow Reports</li>
           </ul>
         </div>
 
         <div>
           <h3 className="text-lg sm:text-xl font-bold text-green-800 mb-2 sm:mb-3">QuickBooks Expertise</h3>
-          <p className="mb-2 sm:mb-3 text-xs sm:text-sm">Our team is highly proficient in QuickBooks Online and Desktop, ensuring:</p>
-          <ul className="list-disc pl-4 sm:pl-6 space-y-1 sm:space-y-2 text-xs sm:text-sm">
+          <p className="mb-2 sm:mb-3 text-xs sm:text-sm leading-relaxed">Our team is highly proficient in QuickBooks Online and Desktop, ensuring:</p>
+          <ul className="list-disc ml-5 sm:ml-6 space-y-1 sm:space-y-1.5 text-xs sm:text-sm">
             <li>Seamless setup and customization</li>
             <li>Efficient data entry and categorization</li>
             <li>Real-time financial tracking and reporting</li>
@@ -123,8 +129,8 @@ const services = [
 
         <div>
           <h3 className="text-lg sm:text-xl font-bold text-green-800 mb-2 sm:mb-3">Year-End Preparation</h3>
-          <p className="mb-2 sm:mb-3 text-xs sm:text-sm">We prepare your books for tax season or audit, including:</p>
-          <ul className="list-disc pl-4 sm:pl-6 space-y-1 sm:space-y-2 text-xs sm:text-sm">
+          <p className="mb-2 sm:mb-3 text-xs sm:text-sm leading-relaxed">We prepare your books for tax season or audit, including:</p>
+          <ul className="list-disc ml-5 sm:ml-6 space-y-1 sm:space-y-1.5 text-xs sm:text-sm">
             <li>Adjusting journal entries</li>
             <li>Trial balance review</li>
             <li>Coordination with tax preparers or auditors</li>
@@ -175,19 +181,19 @@ export default function Services() {
       <AnimatePresence>
         {selectedService && (
           <motion.div
-            className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50"
+            className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50 p-4"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
           >
             <motion.div
-              className="bg-white rounded-2xl max-w-md sm:max-w-xl md:max-w-2xl w-full mx-4 p-6 sm:p-8 md:p-10 shadow-xl relative max-h-[90vh] overflow-y-auto"
-              initial={{ scale: 0.8, opacity: 0 }}
-              animate={{ scale: 1, opacity: 1 }}
-              exit={{ scale: 0.8, opacity: 0 }}
+              className="bg-white rounded-2xl max-w-md sm:max-w-xl md:max-w-2xl w-full p-4 sm:p-6 md:p-8 lg:p-10 shadow-2xl relative max-h-[85vh] overflow-y-auto"
+              initial={{ scale: 0.8, opacity: 0, y: 20 }}
+              animate={{ scale: 1, opacity: 1, y: 0 }}
+              exit={{ scale: 0.8, opacity: 0, y: 20 }}
               transition={{ duration: 0.25 }}
             >
-              <h2 className="text-2xl sm:text-3xl font-bold text-green-800 text-center mb-4 sm:mb-6">
+              <h2 className="text-2xl sm:text-3xl font-bold text-green-800 text-center mb-4 sm:mb-6 leading-tight">
                 {selectedService.title}
               </h2>
 
@@ -198,7 +204,7 @@ export default function Services() {
               {/* Close Button */}
               <button
                 onClick={() => setSelectedService(null)}
-                className="mt-6 sm:mt-8 block mx-auto px-6 py-2 text-sm sm:text-base bg-gray-800 text-white rounded-lg hover:bg-gray-900"
+                className="mt-6 sm:mt-8 block mx-auto px-4 sm:px-6 py-2 text-xs sm:text-sm md:text-base bg-gray-800 text-white rounded-lg hover:bg-gray-900 transition-colors"
               >
                 Close
               </button>
