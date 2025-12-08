@@ -1,17 +1,35 @@
+import { useState, useEffect } from "react";
 import backpic from "../assets/image1.jpg";
 
 export default function Hero() {
+  const [imageLoaded, setImageLoaded] = useState(false);
+
+  useEffect(() => {
+    const img = new Image();
+    img.src = backpic;
+    img.onload = () => setImageLoaded(true);
+  }, []);
+
   return (
     <section id="home" className="relative h-[75vh] text-white flex flex-col justify-center items-center text-center px-4 bg-gray-800">
-      {/* Background Image */}
+      {/* Background Image with Blur Effect */}
       <div
-        className="absolute inset-0 bg-cover bg-center"
+        className={`absolute inset-0 bg-cover bg-center transition-all duration-500 ${
+          imageLoaded ? "blur-none" : "blur-sm"
+        }`}
         style={{
           backgroundImage: `url(${backpic})`,
         }}
       />
+      
+      {/* Loading Placeholder - Shows while image loads */}
+      {!imageLoaded && (
+        <div className="absolute inset-0 bg-gradient-to-br from-gray-700 to-gray-900" />
+      )}
+      
       {/* Overlay */}
       <div className="absolute inset-0 bg-black/60" />
+      
       {/* Content */}
       <div className="relative z-10 max-w-3xl">
         <h1 className="text-5xl sm:text-6xl font-bold leading-tight mb-6">

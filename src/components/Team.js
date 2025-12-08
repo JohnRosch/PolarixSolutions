@@ -5,6 +5,7 @@ import member3 from "../assets/Kathleen.jpg";
 import member4 from "../assets/Yle.jpg";
 import member5 from "../assets/Chloie.jpg";
 import member6 from "../assets/Marc.jpg";
+import member7 from "../assets/nhyssa.jpg";
 import { motion, AnimatePresence } from "framer-motion";
 
 
@@ -16,7 +17,7 @@ const teamMembers = [
       He passed the Certified Public Accountant Licensure Exam in May 2016 and has been working in the field for almost 10 years.
       Mark began his career as an Accounting Assistant at Getz Pharmaceuticals, where he was responsible for preparing expense reimbursement forms for medical representatives. 
       He then transferred to PwC AC Manila, starting out as an Audit Associate. During his tenure at PwC AC Manila, Mark was part of the pilot team for the US Territory. 
-      He was also given the opportunity to be seconded to the PwC San Puerto Rico Branch, to be trained specifially for the Cash and Equity Financial
+      He was also given the opportunity to be seconded to the PwC San Puerto Rick Branch, to be trained specifially for the Cash and Equity Financial
        Statement Line Items under the Center of Excellence Team. Later on in his career, he was selected to be a part of the audit team for the Australian Territory, 
        specifically the Extension of Team Senior Pilot Program. Around 2022, he was then assigned to the Industrial Products sector of the United States territory wherein as an Audit Manager
        , part of his responsibilities included performing manager reviews on the workpapers of offshore and onshore audit associates and senior associates, 
@@ -24,29 +25,6 @@ const teamMembers = [
        during career round table discussions. 
        In his personal time, Mark enjoys playing basketball and computer games such as DOTA 2. A fun fact about Mark is that he is a dedicated Swiftie.`,
     image: member1,
-  },
-
-  {
-    name: "Sheila Fabellar",
-    position: "Bookkeeping Accountant",
-    description: `Sheila graduated from Southville International School and Colleges in 2021, earning the distinction of Cum Laude. She hold certifications in Bookkeeping NC III and as a Certified QuickBooks User. With over four years of professional experience, she has developed a strong foundation in accounting and financial management through various roles.
-Sheila began her career at Southville International School and Colleges as an Audit Associate, wherein she conducted audits of the company and its affiliates. Following this, she worked as an Accountant at the Asian Association of School HRMD, Inc. Returning to Southville International School and Colleges, she served as an Accounting Associate, preparing journal entries and recording them in the Microsoft Dynamics GP system. She then advanced to the role of Accounting Coordinator, wherein she continued her previous tasks and additionally oversaw and assisted three associates (two AR associates and one Allied Business Unit associate). Her most recent position was the  Acting Accounting Head at Southville International School and Colleges. In this role, she continued her responsibilities from the Accounting Associate and Coordinator positions, prepared reports and schedules for external audits at fiscal year-end.
-Regarding Sheila's hobbies and interests, she loves doing water activities like snorkeling, swimming, and riding water thrill rides. She also enjoys running, reading books, and watching detective movies. Additionally, she is an avid sports enthusiast, playing basketball, volleyball, and badminton. A fun fact about Sheila is that in high school, she was part of the Black Light Theatre Performers, using her hands to create captivating performances.								
-`,
-    image:
-      member2,
-  },
-
-  {
-    name: "Kathleen Parreno",
-    position: "Tax Accountant",
-    description:
-      `Kathleen graduated from the National College of Business and Arts - Fairview Branch in 2023. She is a Certified QuickBooks ProAdvisor - Level 1 and 2. With over a year of professional experience, Kathleen has honed her skills in accounting and financial management.
-Her prior working experience includes a four-month stint at UNA Tax and Accounting Services as an Accounting Intern under the Tax and Bookkeeping department. In this role, she supported the team with various audit tasks and client bookkeeping responsibilities, working alongside senior auditors and accountants to ensure accurate financial reporting and compliance.
-Kathleen enjoys reading novels, watching documentaries, k-dramas, and other thrillers and psychological horror films. She is also a foodie who loves exploring different cuisines. In her free time, she engages in yoga, plays board games, and goes roller skating. A fun fact about Kathleen is that gore, thrills, and horror don’t scare her—she watches them with a poker face.						
-`,
-    image:
-      member3,
   },
   {
     name: "Yle Nicole Ebreo",
@@ -69,6 +47,29 @@ Interestingly, dyeing her hair blonde has become her unique coping mechanism whe
     image:
       member5,
   },
+
+  {
+    name: "Sheila Fabellar",
+    position: "Accountant",
+    description: `Sheila graduated from Southville International School and Colleges in 2021, earning the distinction of Cum Laude. She hold certifications in Bookkeeping NC III and as a Certified QuickBooks User. With over four years of professional experience, she has developed a strong foundation in accounting and financial management through various roles.
+Sheila began her career at Southville International School and Colleges as an Audit Associate, wherein she conducted audits of the company and its affiliates. Following this, she worked as an Accountant at the Asian Association of School HRMD, Inc. Returning to Southville International School and Colleges, she served as an Accounting Associate, preparing journal entries and recording them in the Microsoft Dynamics GP system. She then advanced to the role of Accounting Coordinator, wherein she continued her previous tasks and additionally oversaw and assisted three associates (two AR associates and one Allied Business Unit associate). Her most recent position was the  Acting Accounting Head at Southville International School and Colleges. In this role, she continued her responsibilities from the Accounting Associate and Coordinator positions, prepared reports and schedules for external audits at fiscal year-end.
+Regarding Sheila's hobbies and interests, she loves doing water activities like snorkeling, swimming, and riding water thrill rides. She also enjoys running, reading books, and watching detective movies. Additionally, she is an avid sports enthusiast, playing basketball, volleyball, and badminton. A fun fact about Sheila is that in high school, she was part of the Black Light Theatre Performers, using her hands to create captivating performances.								
+`,
+    image:
+      member2,
+  },
+
+  {
+    name: "Kathleen Parreno",
+    position: "Tax Accountant",
+    description:
+      `Kathleen graduated from the National College of Business and Arts - Fairview Branch in 2023. She is a Certified QuickBooks ProAdvisor - Level 1 and 2. With over a year of professional experience, Kathleen has honed her skills in accounting and financial management.
+Her prior working experience includes a four-month stint at UNA Tax and Accounting Services as an Accounting Intern under the Tax and Bookkeeping department. In this role, she supported the team with various audit tasks and client bookkeeping responsibilities, working alongside senior auditors and accountants to ensure accurate financial reporting and compliance.
+Kathleen enjoys reading novels, watching documentaries, k-dramas, and other thrillers and psychological horror films. She is also a foodie who loves exploring different cuisines. In her free time, she engages in yoga, plays board games, and goes roller skating. A fun fact about Kathleen is that gore, thrills, and horror don’t scare her—she watches them with a poker face.						
+`,
+    image:
+      member3,
+  },
   {
     name: "Marc Bien Modelo",
     position: "Tax Accountant",
@@ -79,16 +80,55 @@ Bien has a passion for reading self-help books, which reflects his continuous pu
     image:
       member6,
   },
+  {
+    name: "Nhyssa Adaoag",
+    position: "Tax Accountant",
+    description:
+      `Nhyssa graduated Cum Laude from Southville International School and Colleges in 2022. She is a Certified Tax Technician and brings over three years of professional experience in accounting and finance, complemented by five years as a working student.
+She began her career as an Accounts Associate at South SEED-LPDH College, where she managed accounts payable and receivable, payroll, bookkeeping, bank reconciliation, and tax preparation and filing, while also providing support for financial statement preparation and administrative tasks. Nhyssa later joined Southville International School and Colleges as an Internal Audit Coordinator, supervising operational audits, monitoring statutory compliance, and coordinating with government offices.
+Her early experience as a working student at Southville gave her hands-on exposure to cashiering, payment verification and posting, bank transactions, checking employee advances, and assisting in check requests and disbursement processes—building a strong foundation for her accounting career.
+Outside of work, Nhyssa enjoys creative pursuits and was an active member of the Monarchs Dance Troupe during her college years, performing at school events and internal competitions.							
+`,
+    image:
+      member7,
+    imagePosition: "object-top"
+  },
+  
 ];
 
 export default function Team() {
   const [selectedMember, setSelectedMember] = useState(null);
+  const managerCard = teamMembers[0];
+  const otherMembers = teamMembers.slice(1);
 
   return (
     <section id="team" className="py-20 px-4 bg-gray-50">
       <h2 className="text-5xl font-bold text-green-800 text-center mt-20 mb-20">Meet Our Team</h2>
+      
+      {/* Manager Card - Top Center */}
+      <div className="flex justify-center mb-20">
+        <div
+          onClick={() => setSelectedMember(managerCard)}
+          className="cursor-pointer group relative overflow-hidden rounded-2xl shadow-lg hover:shadow-2xl transition-shadow bg-white w-full max-w-sm">
+          <img
+            src={managerCard.image}
+            alt={managerCard.name}
+            className="w-full h-96 object-cover group-hover:scale-105 transition-transform duration-300"
+          />
+          <div className="p-6 text-center flex-1 flex flex-col justify-center">
+            <h3 className="text-xl font-bold mb-1 text-gray-800 group-hover:text-cyan-700">
+              {managerCard.name}
+            </h3>
+            <p className="text-gray-600 text-sm font-medium">
+              {managerCard.position}
+            </p>
+          </div>
+        </div>
+      </div>
+
+      {/* Other Team Members - 3 Rows */}
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 max-w-7xl mx-auto">
-        {teamMembers.map((member, i) => (
+        {otherMembers.map((member, i) => (
           <div
             key={i}
             onClick={() => setSelectedMember(member)}
@@ -96,7 +136,7 @@ export default function Team() {
             <img
               src={member.image}
               alt={member.name}
-              className="w-full h-96 object-cover group-hover:scale-105 transition-transform duration-300"
+              className={`w-full h-96 object-cover ${member.imagePosition || "object-center"} group-hover:scale-105 transition-transform duration-300`}
             />
             <div className="p-6 text-center flex-1 flex flex-col justify-center">
               <h3 className="text-xl font-bold mb-1 text-gray-800 group-hover:text-cyan-700">
