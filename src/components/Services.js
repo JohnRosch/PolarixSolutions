@@ -86,7 +86,31 @@ const services = [
     description:
       `Our firm offers comprehensive compilations and agreed-upon procedures services.`,
     icon: <FaClipboardCheck className="text-6xl text-green-900" />,
-    modal: <p>More compilation details here.</p>
+    modal: (
+      <div className="space-y-4 sm:space-y-6 text-gray-700">
+        <div>
+          <h3 className="text-lg sm:text-xl font-bold text-green-800 mb-2 sm:mb-3">Compilation Services</h3>
+          <p className="mb-2 sm:mb-3 text-xs sm:text-sm leading-relaxed">We prepare and present financial information as provided by management:</p>
+          <ul className="list-disc ml-5 sm:ml-6 space-y-1 sm:space-y-1.5 text-xs sm:text-sm">
+            <li>Balance Sheets</li>
+            <li>Income Statements</li>
+            <li>Cash Flow Statements</li>
+            <li>Other financial reports as needed</li>
+          </ul>
+        </div>
+
+        <div>
+          <h3 className="text-lg sm:text-xl font-bold text-green-800 mb-2 sm:mb-3">Agreed-Upon Procedures</h3>
+          <p className="mb-2 sm:mb-3 text-xs sm:text-sm leading-relaxed">Customized procedures tailored to your specific requirements:</p>
+          <ul className="list-disc ml-5 sm:ml-6 space-y-1 sm:space-y-1.5 text-xs sm:text-sm">
+            <li>Account reconciliations</li>
+            <li>Transaction testing and validation</li>
+            <li>Compliance verification</li>
+            <li>Custom analytical procedures</li>
+          </ul>
+        </div>
+      </div>
+    )
   },
 
   {
@@ -166,10 +190,10 @@ export default function Services() {
             }}
           >
             <div className="flex flex-col items-center text-center">
-              <div className="mb-4">{service.icon}</div>
-              <h3 className="text-base sm:text-lg font-bold text-gray-800 mb-2">{service.title}</h3>
-              <p className="text-gray-700 text-xs sm:text-sm mb-4 sm:mb-6">{service.description}</p>
-              <button className="mt-3 sm:mt-4 px-4 sm:px-6 py-2 text-sm sm:text-base bg-green-800 text-white rounded-lg hover:bg-green-900 transition-colors">
+              <div className="mb-3 sm:mb-4">{service.icon}</div>
+              <h3 className="text-sm sm:text-base md:text-lg font-bold text-gray-800 mb-2 line-clamp-3">{service.title}</h3>
+              <p className="text-gray-700 text-xs sm:text-sm mb-4 sm:mb-6 leading-relaxed">{service.description}</p>
+              <button className="mt-3 sm:mt-4 px-4 sm:px-6 py-2 text-xs sm:text-sm md:text-base bg-green-800 text-white rounded-lg hover:bg-green-900 transition-colors whitespace-nowrap">
                 Learn More
               </button>
             </div>
