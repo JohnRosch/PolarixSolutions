@@ -31,14 +31,14 @@ export default function Hero() {
       <div className="absolute inset-0 bg-black/60" />
       
       {/* Content */}
-      <div className="relative z-10 max-w-3xl">
-        <h1 className="text-5xl sm:text-6xl font-bold leading-tight mb-6">
+      <div className="relative z-10 max-w-3xl px-4">
+        <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-4 sm:mb-6">
           Trust, Expertise, & Results
         </h1>
-        <p className="text-xl sm:text-2xl mb-8">
+        <p className="text-lg sm:text-xl md:text-2xl mb-6 sm:mb-8">
           Your Partner for Quality and Success
         </p>
-        <p className="mb-10 text-base sm:text-lg text-gray-200">
+        <p className="mb-8 sm:mb-10 text-sm sm:text-base md:text-lg text-gray-200">
           Polarix Solutions empowers individuals and businesses to achieve financial clarity and confidence with premier CPA services delivered by experienced professionals
         </p>
 

@@ -102,24 +102,24 @@ export default function Team() {
   const otherMembers = teamMembers.slice(1);
 
   return (
-    <section id="team" className="py-20 px-4 bg-gray-50">
-      <h2 className="text-5xl font-bold text-green-800 text-center mt-20 mb-20">Meet Our Team</h2>
+    <section id="team" className="py-12 sm:py-16 md:py-20 px-4 bg-gray-50">
+      <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-green-800 text-center mt-10 sm:mt-16 md:mt-20 mb-10 sm:mb-16 md:mb-20">Meet Our Team</h2>
       
       {/* Manager Card - Top Center */}
-      <div className="flex justify-center mb-20">
+      <div className="flex justify-center mb-12 sm:mb-16 md:mb-20">
         <div
           onClick={() => setSelectedMember(managerCard)}
-          className="cursor-pointer group relative overflow-hidden rounded-2xl shadow-lg hover:shadow-2xl transition-shadow bg-white w-full max-w-sm">
+          className="cursor-pointer group relative overflow-hidden rounded-2xl shadow-lg hover:shadow-2xl transition-shadow bg-white w-full max-w-xs sm:max-w-sm">
           <img
             src={managerCard.image}
             alt={managerCard.name}
-            className="w-full h-96 object-cover group-hover:scale-105 transition-transform duration-300"
+            className="w-full h-64 sm:h-80 md:h-96 object-cover group-hover:scale-105 transition-transform duration-300"
           />
-          <div className="p-6 text-center flex-1 flex flex-col justify-center">
-            <h3 className="text-xl font-bold mb-1 text-gray-800 group-hover:text-cyan-700">
+          <div className="p-4 sm:p-6 text-center flex-1 flex flex-col justify-center">
+            <h3 className="text-lg sm:text-xl font-bold mb-1 text-gray-800 group-hover:text-cyan-700">
               {managerCard.name}
             </h3>
-            <p className="text-gray-600 text-sm font-medium">
+            <p className="text-gray-600 text-xs sm:text-sm font-medium">
               {managerCard.position}
             </p>
           </div>
