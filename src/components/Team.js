@@ -17,7 +17,7 @@ const teamMembers = [
       He passed the Certified Public Accountant Licensure Exam in May 2016 and has been working in the field for almost 10 years.
       Mark began his career as an Accounting Assistant at Getz Pharmaceuticals, where he was responsible for preparing expense reimbursement forms for medical representatives. 
       He then transferred to PwC AC Manila, starting out as an Audit Associate. During his tenure at PwC AC Manila, Mark was part of the pilot team for the US Territory. 
-      He was also given the opportunity to be seconded to the PwC San Puerto Rick Branch, to be trained specifially for the Cash and Equity Financial
+      He was also given the opportunity to be seconded to the PwC Puerto Rico Branch, to be trained specifially for the Cash and Equity Financial
        Statement Line Items under the Center of Excellence Team. Later on in his career, he was selected to be a part of the audit team for the Australian Territory, 
        specifically the Extension of Team Senior Pilot Program. Around 2022, he was then assigned to the Industrial Products sector of the United States territory wherein as an Audit Manager
        , part of his responsibilities included performing manager reviews on the workpapers of offshore and onshore audit associates and senior associates, 

@@ -28,7 +28,7 @@ export default function About() {
               Polarix Solutions Inc., an affiliate of Caballero & Associates, is a dedicated provider of auditing, 
               bookkeeping, and taxation services. Based in Manila, we serve as an offshore extension of Caballero & Associates, a reputable CPA Company located in New Jersey, 
               United States. Our parent Company, Caballero & Associates, has a strong presence in the New York and New Jersey areas, catering to the needs of small and mid-sized organizations.
-              Founded by Alvin Caballero in 2018, Polarix Solutions Inc. was established with the
+              Founded by Alvin Caballero in 2017, Polarix Solutions Inc. was established with the
               vision of becoming a stable and integral affiliate of Caballero & Associates. We derive our clients from our parent Company, 
               ensuring seamless and efficient service delivery. Our mission is to support the growth and success of our clients by providing timely, 
               reliable and high-quality auditing, bookkeeping, and taxation services. As we continue to expand, our goal is to grow in terms of resources and capabilities, 
